@@ -25,3 +25,9 @@ for i in range(large, a*b+1):
         lcm = i
         break
 print(lcm)
+
+# for printing 5 lcm 
+original_lcm = lcm
+for i in range(1,5):
+    original_lcm = original_lcm + lcm
+    print(original_lcm)
