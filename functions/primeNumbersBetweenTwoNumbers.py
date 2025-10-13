@@ -21,3 +21,4 @@ def checkPrime(n):
 for i in range(small,large+1):
     if checkPrime(i) == True:
         print(i)
+       
